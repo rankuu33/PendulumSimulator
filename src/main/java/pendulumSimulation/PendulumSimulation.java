@@ -27,7 +27,7 @@ public class PendulumSimulation extends JPanel implements ActionListener {
         pendulums.add(new Pendulum(PANEL_WIDTH / 2, 50, 300, Math.PI / 8, Color.YELLOW));
         pendulums.add(new Pendulum(PANEL_WIDTH / 2, 50, 180, Math.PI / 2, Color.ORANGE));
 
-        timer = new Timer(16, this); // ~60 FPS
+        timer = new Timer(16, this);
         timer.start();
     }
 
